@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-const akadDate = new Date('2026-04-14T09:00:00');
+const akadDate = new Date('2026-04-14T13:00:00');
 const akadCoords = { lat: -0.412915, lng: 100.072266 };
 const resepsiCoords = { lat: -0.6375711, lng: 100.1322098 };
 
@@ -30,7 +30,7 @@ export default function App(){
       <div className="hero">
         <div style={{flex:1}}>
           <div className="kaligrafi">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
-          <motion.h1 className="title" initial={{opacity:0,y:8}} animate={{opacity:1,y:0}} transition={{duration:0.8}}>Muchsin &amp; Suci</motion.h1>
+          <motion.h1 className="title" initial={{opacity:0,y:8}} animate={{opacity:1,y:0}} transition={{duration:0.8}}>Muchsin & Suci</motion.h1>
           <div className="subtitle">M. MUCHSIN RAHMADANI & SUCI PERMATA ARJUNA, S.Pd.GSD</div>
           <div style={{marginTop:12,color:'#6f4a37'}}>Putra Ketiga dari Bapak Nasrul & Ibu Deslinawati — Putri Kedua dari Bapak Zulkifli (Alm.) & Ibu Arjuna</div>
           <div style={{marginTop:14}}>
@@ -58,7 +58,7 @@ export default function App(){
           <div style={{marginTop:18}} className="grid">
             <div className="card-small">
               <h3>Akad Nikah</h3>
-              <p style={{marginTop:6}}>Selasa, 14 April 2026 — 09.00 WIB</p>
+              <p style={{marginTop:6}}>Selasa, 14 April 2026 — 13.00 WIB</p>
               <p style={{marginTop:6}}>Jl. Raya Malai, Kampung Ingu, Kecamatan Sungai Geringging, Kabupaten Padang Pariaman</p>
               <p style={{marginTop:10}}><a href={`https://www.google.com/maps?q=${akadCoords.lat},${akadCoords.lng}`} target="_blank" rel="noreferrer">Lihat di Google Maps</a></p>
               <div style={{marginTop:10}}><iframe className="maps" title="map-akad" src={`https://www.google.com/maps?q=${akadCoords.lat},${akadCoords.lng}&z=16&output=embed`}></iframe></div>
@@ -66,7 +66,7 @@ export default function App(){
             </div>
             <div className="card-small">
               <h3>Resepsi</h3>
-              <p style={{marginTop:6}}>Kamis, 16 April 2026 — 19.00 WIB</p>
+              <p style={{marginTop:6}}>Kamis, 16 April 2026 — 08.00 WIB</p>
               <p style={{marginTop:6}}>Jl. H. Agus Salim No. 48, Kel. Jalan Baru, Kecamatan Pariaman Tengah, Kota Pariaman</p>
               <p style={{marginTop:10}}><a href={`https://www.google.com/maps?q=${resepsiCoords.lat},${resepsiCoords.lng}`} target="_blank" rel="noreferrer">Lihat di Google Maps</a></p>
               <div style={{marginTop:10}}><iframe className="maps" title="map-resepsi" src={`https://www.google.com/maps?q=${resepsiCoords.lat},${resepsiCoords.lng}&z=16&output=embed`}></iframe></div>
@@ -116,7 +116,7 @@ export default function App(){
 
           <footer className="footer">
             <p>Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
-            <div style={{marginTop:8,color:'#8b5e3c'}}>&copy; 2026 Muchsin & Suci</div>
+            <div style={{marginTop:8,color:'#8b5e3c'}}>© 2026 Muchsin & Suci</div>
           </footer>
         </div>
       </motion.div>
